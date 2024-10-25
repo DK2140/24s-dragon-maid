@@ -29,7 +29,6 @@ header img{
 }
 
 .container {
-    display: inline-block;
     width: 80%;
     height: 20%;
     max-width: 800px;

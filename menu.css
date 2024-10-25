@@ -68,3 +68,15 @@ header img{
 .container li p span{
     color: #573214;
 }
+
+footer {
+    background-color: var(--weak-color);
+    padding: 10px;
+    border-top: 5px solid var(--strong-color);
+    font-size: 14px;
+    color: #135a86;
+}
+
+footer p {
+    margin: 0;
+}
