@@ -29,7 +29,7 @@ header img{
 }
 
 .container {
-    width: 100vw;
+    width: 80%;
     height: 20%;
     max-width: 800px;
     list-style: none;
@@ -44,7 +44,7 @@ header img{
 
 .container li{
     list-style: none;
-    width: 80%;
+    width: auto;
     height: auto;
     margin: 20px auto;
     padding: 20px;
