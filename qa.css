@@ -9,7 +9,7 @@ body {
     background-image: url(images/background.png);
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
+    max-width: 100%;
     vertical-align: bottom;
     color: var(--black);
     text-align: center;
@@ -32,6 +32,7 @@ header img{
     margin: 20px auto;
     padding: 20px;
     width: 80%;
+    height: 20%;
     background-color: #fff;
     opacity: 0.8;
     border-radius: 20px;
@@ -41,9 +42,30 @@ header img{
 
 .container h2 {
     font-size: 28px;
-    color: #6bc1f7;
+    color: var(--strong-color);
     margin-bottom: 15px;
     text-shadow: 2px 2px var(--strong-color);
+}
+
+.container li{
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px var(--black);
+    border: solid var(--strong-color);
+}
+
+.question{
+    color: var(--black);
+}
+
+.answer{
+    color: var(--strong-color);
 }
 
 .container p {
