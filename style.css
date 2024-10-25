@@ -5,9 +5,10 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url(images/background.png)　0 0 / cover;
+    background-image: url(images/background.png);
     background-attachment: fixed;
-    width: 100vw;
+    background-size: cover;
+    max-width: 100%;
     vertical-align: bottom;
     color: #333;
     text-align: center;
