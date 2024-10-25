@@ -34,7 +34,7 @@ header img{
     width: 80%;
     background-color: #fff;
     opacity: 0.8;
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 0 4px 10px var(--black);
     border: solid var(--strong-color);
 }
