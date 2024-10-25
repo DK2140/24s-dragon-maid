@@ -65,6 +65,10 @@ header img{
     color: var(--black);
 }
 
+.container li p span{
+    color: #573214;
+}
+
 .image-container img {
     max-width: 100%;
     border: 5px solid var(--strong-color);
