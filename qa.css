@@ -9,7 +9,7 @@ body {
     background-image: url(images/background.png);
     background-attachment: fixed;
     background-size: cover;
-    max-width: 100%;
+    width: 100vw;
     vertical-align: bottom;
     color: var(--black);
     text-align: center;
@@ -32,6 +32,7 @@ header img{
     width: 80%;
     height: 20%;
     max-width: 800px;
+    list-style: none;
 }
 
 .container h2 {
@@ -60,12 +61,6 @@ header img{
 
 .answer{
     color: var(--strong-color);
-}
-
-.container p {
-    font-size: 30px;
-    line-height: 1.6;
-    color: var(--black);
 }
 
 .image-container img {
