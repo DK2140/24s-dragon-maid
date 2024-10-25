@@ -1,6 +1,6 @@
 :root{
     --weak-color: #a3d2f0;
-    --strong-color: #3296d4;
+    --strong-color: #5ab2e9;
     --black: #333;
 }
 
@@ -37,7 +37,7 @@ header img{
 
 .container h2 {
     font-size: 28px;
-    color: var(--strong-color);
+    color: var(--weak-color);
     margin-bottom: 15px;
     text-shadow: 2px 2px var(--strong-color);
 }
