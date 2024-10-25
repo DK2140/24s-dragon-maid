@@ -18,7 +18,7 @@ header {
     height: 10vh;
     background-color: var(--weak-color);
     padding: 20px 10px;
-    border-bottom: 5px solid var(--strong-color);
+    border-bottom: solid var(--strong-color);
 }
 
 header img{
@@ -33,7 +33,7 @@ header img{
     opacity: 0.8;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid var(--strong-color);
+    border: solid var(--strong-color);
 }
 
 .container h2 {
@@ -51,7 +51,7 @@ header img{
 
 .image-container img {
     max-width: 100%;
-    border: 5px solid var(--strong-color);
+    border: solid var(--strong-color);
     border-radius: 15px;
 }
 
