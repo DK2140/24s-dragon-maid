@@ -1,6 +1,7 @@
 :root{
     --weak-color: #a3d2f0;
     --strong-color: #3296d4;
+    --black: #333;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
     background-image: url(images/background.png);
     max-width: 100%;
     vertical-align: bottom;
-    color: #333;
+    color: var(--black);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -44,7 +45,7 @@ header img{
     background-color: #fff;
     opacity: 0.8;
     border-radius: 20px;
-    box-shadow: 0 4px 10px #333;
+    box-shadow: 0 4px 10px var(--black);
     border: solid var(--strong-color);
 }
 
@@ -58,7 +59,7 @@ header img{
 .container p {
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    color: var(--black);
 }
 
 .image-container img {
