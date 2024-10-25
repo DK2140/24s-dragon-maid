@@ -1,6 +1,7 @@
 :root{
     --weak-color: #a3d2f0;
     --strong-color: #5ab2e9;
+    --black: #333;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     background-size: cover;
     max-width: 100%;
     vertical-align: bottom;
-    color: #333;
+    color: var(--black);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -34,7 +35,7 @@ header img{
     background-color: #fff;
     opacity: 0.8;
     border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px var(--black);
     border: solid var(--strong-color);
 }
 
@@ -45,10 +46,18 @@ header img{
     text-shadow: 2px 2px var(--strong-color);
 }
 
+.question{
+    color: var(--black);
+}
+
+.answer{
+    color: var(--strong-color);
+}
+
 .container p {
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    color: var(--black);
 }
 
 .image-container img {
@@ -80,11 +89,11 @@ footer p {
     font-size: 18px;
     border-radius: 25px;
     text-decoration: none;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px var(--black);
     transition: 0.3s;
 }
 
 .btn:hover {
     background-color: #135a86;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 7px var(--black);
 }

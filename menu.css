@@ -43,7 +43,7 @@ header img{
 }
 
 .answer{
-    color: #6bc1f7;
+    color: var(--strong-color);
 }
 
 .container li{
