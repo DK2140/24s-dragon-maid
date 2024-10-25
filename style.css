@@ -40,14 +40,14 @@ header img{
 }
 
 .container h2 {
-    font-size: 28px;
+    font-size: 50px;
     color: #6bc1f7;
     margin-bottom: 15px;
     text-shadow: 2px 2px var(--strong-color);
 }
 
 .container p {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.6;
     color: var(--black);
 }
