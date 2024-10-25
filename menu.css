@@ -29,16 +29,13 @@ header img{
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
-    background-color: #fff;
-    opacity: 0.8;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px #333;
-    border: 2px solid var(--strong-color);
 }
 
 .container li{
     width: auto;
     height: 50%;
+    background-color: #fff;
+    opacity: 0.8;
     border-radius: 20px;
     box-shadow: 0 4px 10px #333;
     border: solid var(--strong-color);
