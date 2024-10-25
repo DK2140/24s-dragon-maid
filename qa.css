@@ -29,10 +29,10 @@ header img{
 }
 
 .container {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
+    width: 80%;
     height: 20%;
+    max-width: 800px;
+    list-style: none;
 }
 
 .container h2 {
@@ -43,7 +43,6 @@ header img{
 }
 
 .container li{
-    list-style: none;
     width: auto;
     height: auto;
     margin: 20px auto;
