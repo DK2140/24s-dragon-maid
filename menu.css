@@ -45,6 +45,7 @@ header img{
     border-radius: 20px;
     box-shadow: 0 4px 10px var(--black);
     border: solid var(--strong-color);
+    float: left;
 }
 
 .container h2 {
