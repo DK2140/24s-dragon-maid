@@ -31,6 +31,7 @@ header img{
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
+    list-style: none;
 }
 
 .container li{
@@ -42,6 +43,7 @@ header img{
     box-shadow: 0 4px 10px #333;
     border: solid var(--strong-color);
 }
+
 .container h2 {
     font-size: 28px;
     color: #6bc1f7;
