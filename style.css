@@ -58,7 +58,7 @@ header img{
 footer {
     background-color: var(--weak-color);
     padding: 10px;
-    border-top: 5px solid var(--strong-color);
+    border-top: solid var(--strong-color);
     font-size: 14px;
     color: #135a86;
 }
