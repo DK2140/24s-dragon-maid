@@ -31,7 +31,6 @@ header img{
     height: 20%;
     max-width: 800px;
     list-style: none;
-    display: flex;
 }
 
 .container li{
@@ -45,7 +44,6 @@ header img{
     border-radius: 20px;
     box-shadow: 0 4px 10px var(--black);
     border: solid var(--strong-color);
-    float: left;
 }
 
 .container h2 {
