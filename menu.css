@@ -37,9 +37,6 @@ header img{
 
 .container li{
     list-style: none;
-}
-
-.menu{
     width: auto;
     height: auto;
     background-color: #fff;
