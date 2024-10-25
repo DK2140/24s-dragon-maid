@@ -42,6 +42,10 @@ header img{
     text-shadow: 2px 2px var(--strong-color);
 }
 
+.answer{
+    color: #6bc1f7;
+}
+
 .container li{
     list-style: none;
     width: auto;
