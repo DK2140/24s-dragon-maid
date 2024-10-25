@@ -37,6 +37,8 @@ header img{
 }
 
 .container li{
+    padding: 20px;
+    margin-right: 20px;
     list-style: none;
     width: auto;
     height: auto;
